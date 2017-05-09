@@ -1,0 +1,112 @@
+.imp
+{
+    width: 520px;
+    color: indianred;
+    border: 1px solid black;
+    margin-left: 20%;
+}
+
+.phot
+{
+    margin: 50px; /* Marge extérieure de 50px */
+    margin-left: 30%;
+}
+
+.ide
+{
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.mdp
+{
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 39%;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+
+.id
+{
+    width: 350px;
+    margin-left: 70%;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+
+.idl
+{
+    width: 350px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.formu
+{
+    width: 350px;
+    margin-left: 30%;
+    margin-top: 80%;
+    text-align: justify;
+}
+
+.phot2
+{
+
+    margin-left: 20%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.sphot2
+{
+    margin-left: 27%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.phot3
+{
+    margin-left: 60%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.sphot3
+{
+    margin-left: 69%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.capt1
+{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.capt2
+{
+    margin-left: 0%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.capt3
+{
+    margin-left: 0%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.l3
+{
+    margin-left: 20%;
+    text-align: justify;
+
+}
