@@ -110,3 +110,27 @@
     text-align: justify;
 
 }
+
+.text1
+{
+    width: 350px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.text2
+{
+    width: 350px;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.text3
+{
+    width: 350px;
+    margin-left: 60%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
