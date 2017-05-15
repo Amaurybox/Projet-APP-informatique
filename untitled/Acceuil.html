@@ -5,6 +5,29 @@
     <style>
         body {margin: 0;}
 
+        ul.horinav{
+            display: table;
+            width: 500px;
+            margin: 100px auto;
+            background-color: #f1f1f1;
+            padding: 0;
+            //position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        ul.horinav li{
+            display: table-cell;
+        }
+
+        ul.horinav li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+
+
         ul.sidenav {
             list-style-type: none;
             margin: 0;
@@ -62,8 +85,8 @@
 </head>
 <body>
 
-<ul class="sidenav">
-    <li><a class="active" href="#home">Home</a></li>
+<ul class="horinav">
+    <li><a href="Acceuil.html">Home</a></li>
     <li><a href="1maischoix.html">Capteurs</a></li>
     <li><a href="Camera.html">Camera</a></li>
     <li><a href="Actionneurs.html">Actionneurs</a></li>
