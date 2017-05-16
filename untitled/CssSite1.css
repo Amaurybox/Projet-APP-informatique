@@ -98,14 +98,14 @@ h1.double {
     text-align: justify;
 }
 
+
 .temp{
-    position: absolute;
-    top: 120%;
-    left:10%;
-    margin-bottom: 10%;
     text-align: justify;
 }
 
+p.info{
+    display: inline-flex;
+}
 .imp
 {
     width: 520px;
@@ -124,14 +124,32 @@ h1.double {
 .information
 {
     text-align: center;
-    margin-left: 10%;
-    width: 300px;
+    background-color: aliceblue ;
+    margin-left: 11%;
+    width: 250px;
+    height: 100px;
     border: 1px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 40px;
     border-radius: 5px;
+    display : inline-block;
 
 }
+
+.information1
+{
+    text-align: center;
+    background-color: aliceblue ;
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    padding: 40px;
+    border-radius: 5px;
+    display : inline-block;
+
+}
+
 .ide
 {
     width: 350px;
