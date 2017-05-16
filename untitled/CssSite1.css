@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: rgba(192,192,192,0.3);
 }
 
@@ -31,17 +32,19 @@ ul.horinav li a {
 }*/
 
 .footer{
-    background-color: #333;
-    width: 100%;
-    padding: 21px 16px;
-    color:white;
+    background:#333;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:100px;
     text-align: center;
+    color: white;
 }
 
 ul.horinav {
     list-style-type: none;
     margin-left: 5%;
-    margin-top: 0px;
+    margin-top: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -78,8 +81,8 @@ li a:hover:not(.active) {
 h1.double {
     border-style: double;
     font-size: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 7% ;
     margin-bottom: 2%;
     border-radius: 5px;
@@ -92,8 +95,8 @@ h1.double {
 .logo
 {
     position: fixed;
-    top: 0%;
-    left:0%;
+    top: 0;
+    left:0;
     margin-bottom: 10%;
     text-align: justify;
 }
@@ -125,7 +128,6 @@ p.info{
 {
     text-align: center;
     background-color: aliceblue ;
-    margin-left: 11%;
     width: 250px;
     height: 100px;
     border: 1px solid black;
@@ -133,6 +135,7 @@ p.info{
     padding: 40px;
     border-radius: 5px;
     display : inline-block;
+    vertical-align:middle;
 
 }
 
@@ -147,7 +150,11 @@ p.info{
     padding: 40px;
     border-radius: 5px;
     display : inline-block;
+    vertical-align:middle;
 
+}
+.general{
+    display: inline-block;
 }
 
 .ide
@@ -230,14 +237,14 @@ p.info{
 
 .capt2
 {
-    margin-left: 0%;
+    margin-left: 0;
     margin-bottom: 10%;
     text-align: justify;
 }
 
 .capt3
 {
-    margin-left: 0%;
+    margin-left: 0;
     margin-bottom: 10%;
     text-align: justify;
 }
@@ -276,4 +283,6 @@ p.info{
 .content
 {
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
