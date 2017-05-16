@@ -2,15 +2,19 @@
 
 body {margin: 0;}
 
-ul.horinav{
+/*.horinav{
     display: table;
-    width: 400px;
+    width: 800px;
     margin: 100px auto;
     background-color: #f1f1f1;
     padding:10px;
-//position: fixed;
     height: 100%;
     overflow: auto;
+    display: table-cell;
+    display: block;
+    color: #000;
+    padding: 16px 100px;
+    text-decoration: none;
 }
 ul.horinav li{
     display: table-cell;
@@ -21,6 +25,44 @@ ul.horinav li a {
     color: #000;
     padding: 16px 100px;
     text-decoration: none;
+}*/
+
+
+
+ul.horinav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 
 .imp
