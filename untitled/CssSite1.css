@@ -30,11 +30,18 @@ ul.horinav li a {
     text-decoration: none;
 }*/
 
-
+.footer{
+    background-color: #333;
+    width: 100%;
+    padding: 21px 16px;
+    color:white;
+    text-align: center;
+}
 
 ul.horinav {
     list-style-type: none;
-    margin: 0;
+    margin-left: 5%;
+    margin-top: 0px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -52,7 +59,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 21px 16px;
     text-decoration: none;
 }
 
@@ -68,12 +75,35 @@ li a:hover:not(.active) {
     background-color: #778899;
 }
 
-h2.double {
+h1.double {
     border-style: double;
-    margin-left: 20%;
-    margin-right: 20%;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 7% ;
+    margin-bottom: 2%;
     border-radius: 5px;
+}
+
+.titre{
+
+}
+
+.logo
+{
+    position: fixed;
+    top: 0%;
+    left:0%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.temp{
+    position: absolute;
+    top: 120%;
+    left:10%;
+    margin-bottom: 10%;
+    text-align: justify;
 }
 
 .imp
@@ -90,6 +120,18 @@ h2.double {
     margin-left: 30%;
 }
 
+
+.information
+{
+    text-align: center;
+    margin-left: 10%;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 5px;
+
+}
 .ide
 {
     width: 350px;
