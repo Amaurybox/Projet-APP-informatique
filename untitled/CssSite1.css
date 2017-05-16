@@ -81,15 +81,9 @@ li a:hover:not(.active) {
 h1.double {
     border-style: double;
     font-size: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 7% ;
     margin-bottom: 2%;
     border-radius: 5px;
-}
-
-.titre{
-
 }
 
 .logo
@@ -285,4 +279,5 @@ p.info{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    font-family: Verdana;
 }
