@@ -78,6 +78,14 @@ li a:hover:not(.active) {
     background-color: #778899;
 }
 
+h1.espace{
+    font-size: 50px;
+    margin-top: 6100px ;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
 h1.double {
     border-style: double;
     font-size: 50px;
@@ -281,3 +289,4 @@ p.info{
     margin-right: 10%;
     font-family: Verdana;
 }
+
