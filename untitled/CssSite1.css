@@ -420,3 +420,58 @@ p.info{
     background-color: red;
     color: white;
 }
+
+p.titre {
+  font-family: Century Gothic;
+  font-weight: Bold;
+  font-variant:10;
+  background:#efefe6;
+  color:#345071;
+  padding:.2em .3em;
+  font-size:1.2em;
+  border:2px outset #efefe6;
+  position:relative;
+  margin-bottom:-1em;
+  width:10em;
+  margin-left:1em;
+  margin-top:1em;
+}
+
+fieldset {
+  border:none;
+  margin-bottom:1em;
+  width:24em;
+  padding-top:1.5em;
+}
+
+select {
+  font-family: Gill Sans MT;
+  margin-left:9em;
+  margin-bottom:0;
+}
+
+fieldset#coordonnees {
+  background:white;
+  border:outset #31687F;
+}
+
+#coordonnees label {
+  font-family: Gill Sans MT;
+  font-size: 12;
+  position:absolute;
+  font-size:90%;
+  padding-top:.2em;
+  left:20px;
+}
+
+#coordonnees input {
+  margin-left:9em;
+  line-height:1.4em;
+  margin-bottom:.2em;
+}
+
+fieldset#message {
+  font-family: Gill Sans MT;
+  background:white;
+  border:outset #31687F;
+}
