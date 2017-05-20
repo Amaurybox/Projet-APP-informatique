@@ -348,3 +348,75 @@ p.info{
 .slideThree input[type=checkbox]:checked + label {
     left: 43px;
 }
+
+.new
+{
+    background-color: white;
+    border: 1px solid orangered;
+    padding: 5px;
+    color: orangered;
+    transition: all 0.5s ease;
+    margin-left: 80%;
+}
+
+.new:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.new2
+{
+    width: 200px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    border: 1px solid deeppink;
+    padding: 5px;
+    color: deeppink;
+    transition: all 0.5s ease;
+}
+
+.new2:hover{
+    background-color: deeppink;
+    color: white;
+}
+
+.form {
+
+}
+
+.form input {
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 2px;
+
+}
+
+.inputbasic{
+    border: 1px solid grey;
+    padding: 5px;
+    transition: all 0.5s ease;
+    margin-left: 43%;
+
+}
+
+.inputbasic:focus {
+    background-color: lightgrey;
+    color: white;
+
+
+}
+
+.form input[type=submit]{
+    background-color: white;
+    border: 1px solid red;
+    padding: 5px;
+    color: red;
+    transition: all 0.5s ease;
+    margin-left: 80%;
+}
+
+.form input[type=submit]:hover{
+    background-color: red;
+    color: white;
+}
