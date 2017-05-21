@@ -307,7 +307,7 @@ p.info{
 }
 .slideThree:after {
     content: 'OFF';
-    color: #000;
+    color: red;
     position: absolute;
     right: 10px;
     z-index: 0;
@@ -475,3 +475,5 @@ fieldset#message {
   background:white;
   border:outset #31687F;
 }
+
+

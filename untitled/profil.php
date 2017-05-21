@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=espace_membre', 'root', '');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=demo', 'root', '');
 
 if(isset($_GET['id']) AND $_GET['id'] > 0) {
     $getid = intval($_GET['id']);
