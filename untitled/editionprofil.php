@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=demo', 'root', '');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=bddomisep', 'root', '');
 
 if(isset($_SESSION['id'])) {
-    $requser = $bdd->prepare("SELECT * FROM membres WHERE id = ?");
+    $requser = $bdd->prepare("SELECT * FROM utilisateur WHERE id = ?");
     $requser->execute(array($_SESSION['id']));
     $user = $requser->fetch();
     if(isset($_POST['newpseudo']) AND !empty($_POST['newpseudo']) AND $_POST['newpseudo'] != $user['pseudo']) {

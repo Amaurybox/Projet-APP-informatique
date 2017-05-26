@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="CssSite1.css" />
-    <title>Page de connection</title>
+    <link rel="stylesheet" href="CssSite1.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
-
+<meta charset="UTF-8">
 <body>
-<p>
-    <a class ="id"></a><a href="test5.html"><input type ="submit" value="Contact Administrateur" /></a>
-</p>
-<p>
-    <a class = "phot"><img src="contenu/Logo_domisep.jpg" alt="Logo du site" title="Domisep" /></a>
-</p>
 
-<p>
-    <form method="post" action="Regi.php">
-<p><a class="ide" >Identifiant</a> <input type="text" name="pseudo" placeholder="Ex : User" />
-    <br>
-    <a class="mdp" >Mot de Passe</a>  <input type="password" name="pseudo" placeholder="Ex : Corse" /></p>
-</br>
-</form>
-</p>
+<ul class="horinav">
+    <li><a href="Acceuil.html">Home</a></li>
+    <li><a class="active" href="Mes_Fonctionnalitées.html">Mes Fontionnalitées</a></li>
+    <li><a href="Mes_Pieces.html">Mes pièces</a></li>
+    <li><a href="about.html">Aide</a></li>
+</ul>
 
-<p>
-    <a class ="id" ></a><a href="Acceuil.html"><input type="submit" value="Se Connecter" /></a>
+<div class="content">
+    <a class="logo"><img src="contenu/LOGO%20ISEP%20FINAL.png" alt="Logo" width="63" height="61"/></a>
+    <h1 class="double">Vos Fonctionnalitées</h1>
+</div>
+<div class="content">
+    <div class="general">
+        <div class="information">
+            <p>Vos Capteurs :</p>
+            <input type="submit" name="modifcapt" value="Modifier vos capteurs" />
 
-</p>
+        </div>
 
-<p>
-    <a class ="idl" ></a><a href="test5.html"><input type="submit" value="Toujours pas inscrit ?" /></a>
+        <div class="information1">
+            <p>Vos Actionneurs :</p>
+            <input type="submit" name="modifactio" value="Modifier vos actionneurs" />
 
-</p>
+        </div>
+
+        <div class="information1">
+            <p>Vos Cameras :</p>
+            <input type="submit" name="modifcam" value="Modifier vos caméras" />
+
+        </div>
+    </div>
+
+
 </body>
-
 </html>

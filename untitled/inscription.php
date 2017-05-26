@@ -1,5 +1,5 @@
 <?php
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=demo', 'root', '');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=bddomisep', 'root', '');
 
 if(isset($_POST['forminscription'])) {
     $pseudo = htmlspecialchars($_POST['pseudo']);
@@ -97,7 +97,7 @@ if(isset($_POST['forminscription'])) {
                 <td></td>
                 <td align="center">
                     <br />
-                    <a class = .form_demo></a><input type="submit" name="forminscription" value="Je m'inscris" />
+                    <a class = .form></a><input type="submit" name="forminscription" value="Je m'inscris" />
                 </td>
             </tr>
         </table>
